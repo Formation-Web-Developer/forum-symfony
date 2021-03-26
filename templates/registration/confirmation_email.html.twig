@@ -1,0 +1,11 @@
+<h1>{{ 'email.auth.confirm.title'|trans }}</h1>
+
+<p>
+    {{ 'email.auth.confirm.click_link'|trans }} <br><br>
+    <a href="{{ signedUrl|raw }}">{{ 'email.auth.confirm.email_confirm'|trans }}</a>.
+    {{ 'email.auth.confirm.expire_link'|trans }} {{ expiresAtMessageKey|trans(expiresAtMessageData, 'VerifyEmailBundle') }}.
+</p>
+
+<p>
+    {{ 'email.auth.confirm.sign'|trans }}
+</p>

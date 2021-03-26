@@ -1,0 +1,40 @@
+welcome: Bienvenue sur le Forum !
+
+form:
+  field:
+    name: Nom
+    lastname: Prénom
+    email: Email
+    new_password: Nouveau mot de passe
+    password: Mot de passe
+    password_confirm: Confirmer le mot de passe
+    connect: Se connecter
+    register: S'enregistrer
+
+flashes:
+  success:
+    register_account: Votre inscription a bien été pris en compte. Veuillez à présent valider votre Email.
+    email_address_verified: Votre adresse Email à bien été vérifié.
+  errors:
+    cant_valide_email: Impossible de valider cet email.
+
+auth:
+  login:
+    title: Espace de connexion
+    no_register: Pas encore de compte ?
+    register: S'enregistrer
+
+  register:
+    title: Création d'un nouveau compte
+    already_account: Déjà un compte ?
+    connect: Se connecter
+
+email:
+  auth:
+    confirm:
+      subject: Valider votre Email
+      title: Bienvenue sur le forum NeutronStars.fr
+      click_link: Veuillez valider votre email en cliquant sur le lien suivant
+      email_confirm: Confirmer mon Email
+      expire_link: Ce lien expire dans
+      sign: Cordialement

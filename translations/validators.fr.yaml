@@ -1,0 +1,9 @@
+form:
+  constraints:
+    field_not_valid: Ce champs n'est pas valide.
+    field_limit: Ce champs doit contenir au moins %limit% caractères.
+    email_not_valid: L'email renseigné n'est pas un email valide.
+    accept_terms: Veuillez accepter les termes d'utilisations.
+    password_not_empty: Veuillez entrer un mot de passe.
+    password_repeat: Les mots de passes doivent-être identiques.
+    password_limit: Le mot de passe doit contenir au moins {{ limit }} caractères.
