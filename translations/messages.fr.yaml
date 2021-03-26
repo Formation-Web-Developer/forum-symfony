@@ -10,24 +10,34 @@ form:
     password_confirm: Confirmer le mot de passe
     connect: Se connecter
     register: S'enregistrer
+    reset_password_email: Envoyer une demande de réinitialisation de mot de passe
+    reset: Réinitialiser
 
 flashes:
   success:
     register_account: Votre inscription a bien été pris en compte. Veuillez à présent valider votre Email.
     email_address_verified: Votre adresse Email à bien été vérifié.
+    send_email_reset_password: Un email vous a été envoyé pour réinitialiser votre mot de passe.
+    reset_password: Votre mot de passe à bien été reinitialisé.
   errors:
     cant_valide_email: Impossible de valider cet email.
+    cant_reset_password: Impossible de reinitialiser le mot de passe.
 
 auth:
   login:
     title: Espace de connexion
     no_register: Pas encore de compte ?
     register: S'enregistrer
+    forget_password: Mot de passe oublié ?
+    reset_password: Réinitialiser le mot de passe
 
   register:
     title: Création d'un nouveau compte
     already_account: Déjà un compte ?
     connect: Se connecter
+
+  reset_password:
+    title: Réinitialiser son mot de passe
 
 email:
   auth:
@@ -36,5 +46,12 @@ email:
       title: Bienvenue sur le forum NeutronStars.fr
       click_link: Veuillez valider votre email en cliquant sur le lien suivant
       email_confirm: Confirmer mon Email
+      expire_link: Ce lien expire dans
+      sign: Cordialement
+    reset_password:
+      subject: Demande de reinitialisation de mot de passe
+      title: Bonjour username !
+      description: Pour réinitialiser votre mot de passe, cliquez sur le lien suivant
+      reset_password: Réinitialiser le mot de passe
       expire_link: Ce lien expire dans
       sign: Cordialement

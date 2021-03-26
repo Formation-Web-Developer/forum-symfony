@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Reset your password{% endblock %}
+
+{% block body %}
+    <div class="container my-5">
+        <h1>{{ 'auth.reset_password.title'|trans }}</h1>
+
+        {{ include('components/_flashes.html.twig') }}
+
+        {{ form_start(resetForm) }}
+            <div class="form-group">
+                {{ form_row(resetForm.plainPassword) }}
+            </div>
+            <button class="btn btn-primary">{{ 'form.field.reset'|trans }}</button>
+        {{ form_end(resetForm) }}
+    </div>
+{% endblock %}
