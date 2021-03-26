@@ -1,6 +1,14 @@
 {
+    "name": "neutronstars/forum-symfony",
+    "description": "Création d'un forum à partir des bases apprises lors de la formation Web Développeur",
+    "authors": [
+        {
+            "name": "NeutronStars",
+            "email": "pro@neutronstars.fr"
+        }
+    ],
     "type": "project",
-    "license": "proprietary",
+    "license": "Apache-2.0",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
